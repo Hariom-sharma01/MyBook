@@ -7,10 +7,6 @@
     "start": "node src/index",
     "dev": "nodemon src/index"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thenileshnishad/daybook.git"
-  },
   "keywords": [
     "mern",
     "daybook",
@@ -18,12 +14,8 @@
     "task",
     "management"
   ],
-  "author": "Nilesh Kumar Nishad",
+  "author": "Hariom Sharma",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thenileshnishad/daybook/issues"
-  },
-  "homepage": "https://github.com/thenileshnishad/daybook#readme",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cookie-parser": "^1.4.7",

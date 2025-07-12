@@ -3,7 +3,7 @@ import NavLinks from "./NavLinks";
 import ThemeController from "../ThemeController";
 import NavProfile from "./NavProfile";
 import SearchBox from "./SearchBox";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   return (
@@ -31,8 +31,7 @@ const Navbar = () => {
           </label>
         </div>
         <Link className="btn btn-ghost text-xl pl-0" to="/">
-          <img className="w-10 h-10" src={logo} alt="logo" />
-          DayBook
+          <img className="w-40 h-28" src={logo} alt="logo" />
         </Link>
       </div>
 

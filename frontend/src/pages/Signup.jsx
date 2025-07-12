@@ -47,7 +47,7 @@ const Signup = () => {
     <div className="min-h-[calc(100svh-64px-52px-40px)]">
       <div className="my-10">
         <p className="text-lg font-semibold text-center">
-          Create your DayBook account
+          Create your MyBook account
         </p>
         <p className="text-lg font-semibold text-center">
           and stay organized effortlessly.
@@ -57,7 +57,7 @@ const Signup = () => {
         <div className="card card-xl bg-base-200 w-full max-w-sm rounded-2xl shadow-xl hover:shadow-2xl">
           <div className="card-body">
             <h2 className="card-title block text-center text-lg mb-2">
-              Sign up to DayBook
+              Sign up to MyBook
             </h2>
             <form onSubmit={handleSubmit}>
               <div className="text-sm">
